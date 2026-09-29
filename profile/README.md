@@ -14,7 +14,6 @@
 
 | 레포 | 역할 |
 | --- | --- |
-| `bader-poc` | 기술 PoC (실시간 음성 · STT/TTS · 이미지 생성) |
-| `bader-app` | 모바일 앱 *(예정)* |
-| `bader-server` | API 서버 · 발신 스케줄러 *(예정)* |
-| `bader-ai` | 통화 에이전트 · 일기 생성 파이프라인 *(예정)* |
+| `bother-poc` | 기술 PoC (실시간 음성 · STT/TTS · 이미지 생성) |
+| `bother-app` | 모바일 앱 (iOS · Android) |
+| `bother-server` | API 서버 · 발신 스케줄러 · 통화/일기 AI 파이프라인 |
