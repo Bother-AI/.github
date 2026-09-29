@@ -1,0 +1,30 @@
+name: 🧪 PoC
+description: 기술 검증 실험
+title: "poc: "
+labels: ["poc"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 검증할 질문
+      description: 이 실험으로 무엇을 결정하려는지 (예: 통합형 vs 조립형)
+    validations:
+      required: true
+  - type: textarea
+    id: candidates
+    attributes:
+      label: 후보
+  - type: textarea
+    id: metrics
+    attributes:
+      label: 측정 기준
+      value: |
+        - 왕복 지연 (목표 ≤1초)
+        - 분당 단가
+        - 한국어 품질
+    validations:
+      required: true
+  - type: input
+    id: adr
+    attributes:
+      label: Notion ADR 링크
